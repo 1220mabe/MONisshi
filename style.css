@@ -151,10 +151,4 @@ ul li:before{
 .main {
   flex: 1 0 auto;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 2000px;
-  margin-right: 10px;
-  background: #ccc;
-  background: linear-gradient(to bottom, #ffffff 0%,rgb(255, 255, 255) 100%);
 }
