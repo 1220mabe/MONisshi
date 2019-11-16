@@ -26,6 +26,7 @@ h3 {
   text-shadow: 0 0 2px white;
 }
 
+
 h3:before {
   content: "";
   position: absolute;
@@ -119,4 +120,18 @@ ul li:before{
   background: rgb(207, 207, 207);
   border-radius: 50%;
   margin-right: 8px;
+}
+
+.box-center {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+      transform: translate(-50%,-50%);
+}
+
+.scroll {
+  height: 300px;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
 }
