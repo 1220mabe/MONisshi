@@ -122,12 +122,21 @@ ul li:before{
   margin-right: 8px;
 }
 
-.box-center {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%,-50%);
-      transform: translate(-50%,-50%);
+.bgArea{
+	position: relative;
+	width: 100%;
+	min-width: 400px;
+	height: 300px;
+	background: #f2f2f2;
+}
+.bgArea .box{
+	padding: 30px 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	-webkit-transform: translateY(-50%) translateX(-50%);
+	background:#C0DD3B;
 }
 
 .scroll {
