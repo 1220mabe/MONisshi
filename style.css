@@ -1,114 +1,108 @@
-  h1 {
-    padding: 1em;
-    border: 3px solid #5ab9ff;
-    border-radius: 3em .7em 2em .7em/.7em 2em .7em 3em;
-    
-  }
+h1 {
+  padding: 1em;
+  border: 3px solid #5ab9ff;
+  border-radius: 3em .7em 2em .7em/.7em 2em .7em 3em;
+  
+}
 
-  h2 {
-    position: relative;
-    padding: .25em 0 .5em .75em;
-    border-left: 6px solid #5ab9ff;
-  }
-  h2::after {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    content: '';
-    width: 100%;
-    height: 0;
-    border-bottom: 2px solid rgb(179, 179, 179);
-  }
-  
-  h3 {
-    position: relative;
-    padding-left: 1.2em;/*アイコン分のスペース*/
-    line-height: 1.4;
-  }
+h2 {
+  position: relative;
+  padding: .25em 0 .5em .75em;
+  border-left: 6px solid #5ab9ff;
+}
+h2::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: '';
+  width: 100%;
+  height: 0;
+  border-bottom: 2px solid rgb(179, 179, 179);
+}
 
-  h3:before {
-    font-family: "Font Awesome 5 Free";
-    content: "\f00c";/*アイコンのユニコード*/
-    position: absolute;/*絶対位置*/
-    font-size: 1em;/*サイズ*/
-    left: 0;/*アイコンの位置*/
-    top: 0;/*アイコンの位置*/
-    color: #5ab9ff; /*アイコン色*/
+h3 {
+  position: relative;
+  color: #333;
+  text-shadow: 0 0 2px white;
+}
+h3:before {
+  content: "";
+  position: absolute;
+  background: #89ceff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top: 50%;
+  /* border: dashed 1px white; */
+  left: -15px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: -1;
+}
 
-  }
-  h3::after {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    content: '';
-    width: 100%;
-    height: 0;
-    border-bottom: 1px solid rgb(179, 179, 179);
-  }
+table{
+  width: 50%;
+  border-collapse: collapse;
+}
 
-  table{
-    width: 50%;
-    border-collapse: collapse;
-  }
-  
-  table tr{
-    border-bottom: solid 2px white;
-  }
-  
-  table tr:last-child{
-    border-bottom: none;
-  }
-  
-  table th{
-    text-align: left;
-    background-color: #6bc1ff;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-  }
-  
-  table th:after{
-    display: block;
-    content: "";
-    top:calc(50% - 10px);
-    border-left: 10px solid #6bc1ff;
-  }
-  
-  table td{
-    text-align: left;
-    width: 5%;
-    text-align: center;
-    background-color: #eee;
-    padding: 10px 0;
-  }
+table tr{
+  border-bottom: solid 2px white;
+}
 
-  img {
-    border: 2px #8f8f8f solid;
-  }
+table tr:last-child{
+  border-bottom: none;
+}
 
-  ul, ol {
-    padding: 0;
-  }
-  
-  ul li {
-    position: relative;
-    list-style-type: none!important;/*ポチ消す*/
-    padding: 0.5em 0.5em 0.5em 0.5em;
-    margin-bottom: 5px;
-    line-height: 1.5;
-    background: #ffffff;
-    vertical-align: middle;
-    border-radius: 15px 0px 0px 15px;/*左側の角丸く*/
-  }
-  
-  ul li:before{ 
-    display:inline-block; 
-    vertical-align: middle;
-    /*以下白丸つくる*/
-    content:'';
-    width:1em;
-    height: 1em;
-    background: rgb(207, 207, 207);
-    border-radius: 50%;
-    margin-right: 8px;
-  }
+table th{
+  text-align: left;
+  background-color: #6bc1ff;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+table th:after{
+  display: block;
+  content: "";
+  top:calc(50% - 10px);
+  border-left: 10px solid #6bc1ff;
+}
+
+table td{
+  text-align: left;
+  width: 5%;
+  text-align: center;
+  background-color: #eee;
+  padding: 10px 0;
+}
+
+img {
+  border: 2px #8f8f8f solid;
+}
+
+ul, ol {
+  padding: 0;
+}
+
+ul li {
+  position: relative;
+  list-style-type: none!important;/*ポチ消す*/
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  margin-bottom: 5px;
+  line-height: 1.5;
+  background: #ffffff;
+  vertical-align: middle;
+  border-radius: 15px 0px 0px 15px;/*左側の角丸く*/
+}
+
+ul li:before{ 
+  display:inline-block; 
+  vertical-align: middle;
+  /*以下白丸つくる*/
+  content:'';
+  width:1em;
+  height: 1em;
+  background: rgb(207, 207, 207);
+  border-radius: 50%;
+  margin-right: 8px;
+}
