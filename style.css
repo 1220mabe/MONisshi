@@ -1,3 +1,12 @@
+
+body{ 
+  background-color:#dddddd;
+  margin-right: auto;
+  margin-left : auto;
+  width:700px;
+  font-size:62.5%;
+}
+
 h1 {
   padding: 1em;
   border: 3px solid #5ab9ff;
@@ -120,23 +129,6 @@ ul li:before{
   background: rgb(207, 207, 207);
   border-radius: 50%;
   margin-right: 8px;
-}
-
-.bgArea{
-	position: relative;
-	width: 100%;
-	min-width: 400px;
-	height: 300px;
-	background: #f2f2f2;
-}
-.bgArea .box{
-	padding: 30px 40px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translateY(-50%) translateX(-50%);
-	-webkit-transform: translateY(-50%) translateX(-50%);
-	background:#C0DD3B;
 }
 
 .scroll {
